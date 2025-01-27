@@ -1,18 +1,26 @@
-## Getting Started
+# Juego del Ahorcado en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descripción
+Este es un juego del ahorcado simple implementado en Java. El jugador debe adivinar una palabra oculta letra por letra, con un número limitado de intentos.
 
-## Folder Structure
+## Características
+- Palabra predefinida para adivinar
+- 8 intentos máximos
+- Interfaz por consola
+- Seguimiento de letras adivinadas
+- Retroalimentación inmediata al jugador
+- Contador de intentos restantes
 
-The workspace contains two folders by default, where:
+## Instalación
+1. Clona este repositorio o descarga el archivo `ahorcado.java`
+2. Abre el proyecto en tu IDE preferido
+3. Compila y ejecuta el archivo `ahorcado.java`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Cómo jugar
+1. Ejecuta el programa
+2. El juego mostrará guiones bajos (_) representando cada letra de la palabra a adivinar
+3. Introduce una letra cuando se te solicite
+4. El juego te informará si la letra es correcta o incorrecta
+5. Continúa adivinando letras hasta:
+   - Adivinar la palabra completa (¡Ganas!)
+   - Agotar tus 8 intentos (Pierdes)
